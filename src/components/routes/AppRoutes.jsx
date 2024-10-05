@@ -9,8 +9,8 @@ import SignUp from "../../pages/SignUp/SignUp";
 const AppRoutes = () => {
   return (
     <Routes>
-      <Route index element={<Home />} />
-      <Route path="about-us" element={<AboutUs />} />
+      <Route path="homes" element={<Home />} />
+      <Route index element={<AboutUs />} />
       <Route path="login" element={<Login />} />
       <Route path="signup" element={<SignUp />} />
       <Route path="qa" element={<QandA />} />
