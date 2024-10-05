@@ -1,0 +1,157 @@
+.about-us-container {
+    max-width: 1440px; /* Maximum width for the container */
+    margin: 0 auto; /* Center the container */
+    padding: 0 100px; /* Padding on left and right */
+    background-color: #E8F4FF; /* Background color for the page */
+  }
+  
+  .frame-54 {
+    p {
+      width: 172px; /* Width for the title */
+      height: 40px; /* Height for the title */
+      font-family: 'Helvetica Neue', sans-serif; /* Font style */
+      font-size: 24px; /* Font size */
+      font-weight: 500; /* Font weight */
+      line-height: 40px; /* Line height */
+      text-align: left; /* Align text to the left */
+      color: #181818; /* Text color */
+    }
+  }
+  
+  .frame-153 {
+    margin: 20px 0; /* Margin for Frame 153 */
+    padding: 20px 0; /* Padding for Frame 153 */
+    width: 100%; /* Full width for Frame 153 */
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    
+    h1 {
+      font-family: 'Helvetica Neue', sans-serif; /* Font style */
+      font-size: 36px; /* Font size */
+      font-weight: 500; /* Font weight */
+      line-height: 40px; /* Line height */
+      text-align: center; /* Center text horizontally */
+      color: #181818; /* Text color */
+      margin: 0; /* Remove default margin */
+    }
+  }
+  
+  .frame-213 {
+    display: flex; /* Flexbox for layout */
+    justify-content: space-between; /* Space between image and text */
+    align-items: center; /* Center the items vertically */
+    width: 1240px; /* Width for Frame 213 */
+    height: 392px; /* Height for Frame 213 */
+  
+    .text {
+      width: 820px; /* Fixed width for text */
+      height: 392px; /* Fixed height for text */
+      display: flex; /* Flexbox for text layout */
+      flex-direction: column; /* Stack text vertically */
+      gap: 0; /* Remove gap between elements */
+      opacity: 1; /* Set opacity to 1 for visibility */
+      font-family: 'Helvetica Neue', sans-serif; /* Font style */
+      font-size: 20px; /* Font size */
+      font-weight: 500; /* Font weight */
+      line-height: 32px; /* Line height */
+      text-align: left; /* Align text to the left */
+      justify-content: space-between; /* Space out text sections evenly */
+  
+      p {
+        margin: 0; /* Remove margin from paragraphs */
+        margin-bottom: 20px; /* Only bottom margin to create space between paragraphs */
+      }
+    }
+  
+    .image {
+      width: 400px; /* Width of the image */
+      height: 392px; /* Height of the image */
+      border-radius: 24px 0px 0px 0px; /* Rounded corners */
+      opacity: 1; /* Set opacity to 1 for visibility */
+      display: flex; /* Flexbox for image layout */
+      align-items: center; /* Center the image vertically */
+  
+      img {
+        width: 100%; /* Responsive image */
+        height: auto; /* Maintain aspect ratio */
+        border-radius: inherit; /* Inherit the border radius */
+      }
+    }
+  }
+  
+  .frame-214 {
+    width: 1240px; /* Width for Frame 214 */
+    margin: 60px auto; /* Center the container with top and bottom margin of 60px */
+    display: flex; /* Flexbox for layout */
+    justify-content: center; /* Center the content horizontally */
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center items vertically */
+    
+    h2 {
+      width: 178px; /* Width for the title */
+      height: 40px; /* Height for the title */
+      font-family: 'Helvetica Neue', sans-serif; /* Font style */
+      font-size: 36px; /* Font size */
+      font-weight: 500; /* Font weight */
+      line-height: 40px; /* Line height */
+      text-align: center; /* Center text */
+      color: #181818; /* Text color */
+      margin: 0; /* Remove margin */
+    }
+    
+    p {
+      width: 1240px; /* Width for the paragraph */
+      height: auto; /* Set height to auto to accommodate text */
+      font-family: 'Helvetica Neue', sans-serif; /* Font style */
+      font-size: 24px; /* Font size */
+      font-weight: 500; /* Font weight */
+      line-height: 32px; /* Line height */
+      text-align: left; /* Align text to the left */
+      color: #000000; /* Text color */
+      margin-top: 20px; /* Add top margin of 20px for spacing */
+    }
+  }
+  
+  .frame-219 {
+  display: flex; /* Flexbox for layout */
+  justify-content: space-between; /* Space between boxes */
+  align-items: flex-start; /* Align items at the start */
+  width: 1240px; /* Width for Frame 219 */
+  margin-top: 20px; /* Margin for Frame 219 */
+  margin-bottom: 80px; /* Updated margin-bottom for Frame 219 (60px original + 20px space) */
+  gap: 20px; /* Gap between boxes */
+
+  .box {
+    background-color: white; /* Background for boxes */
+    border-radius: 10px; /* Rounded corners for boxes */
+    padding: 20px; /* Padding for boxes */
+    width: 400px; /* Updated width for boxes */
+    text-align: center; /* Center text in boxes */
+    display: flex; /* Use flexbox for each box */
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center align items horizontally */
+
+    h3 {
+      font-family: 'Helvetica Neue', sans-serif; /* Font style */
+      font-size: 24px; /* Font size for titles */
+      font-weight: 700; /* Font weight for titles */
+      line-height: 30px; /* Line height for titles */
+      text-align: center; /* Center align titles */
+      color: #181818; /* Text color for titles */
+      margin: 10px 0; /* Top margin of 10px, left and right margins of 0, bottom margin of 0 */
+    }
+
+    p {
+      font-family: 'Helvetica Neue', sans-serif; /* Font style */
+      font-size: 18px; /* Font size for paragraphs */
+      font-weight: 500; /* Font weight for paragraphs */
+      line-height: 24px; /* Line height for paragraphs */
+      text-align: center; /* Center align paragraphs */
+      margin: 20px 0 0; /* Top margin of 20px, bottom margin of 0, left and right margins of 0 */
+    }
+  }
+}
+
+
+  
